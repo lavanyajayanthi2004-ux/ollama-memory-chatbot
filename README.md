@@ -1,8 +1,9 @@
 # Local LLM Chatbot with Conversational Memory (Ollama)
 
 A simple Python-based chatbot that runs entirely on a local machine using
-Ollama. The chatbot simulates conversational memory by maintaining and
-replaying chat history to a stateless large language model.
+Ollama and the **Llama 3.2** model. The chatbot simulates conversational
+memory by maintaining and replaying chat history to a stateless large
+language model.
 
 This project was built as part of the **LLM Engineering course by Ed Donner**
 to practice working with local LLMs, prompt engineering, and conversational
@@ -18,6 +19,7 @@ clear and accurate answers.
 
 ## Features
 - Runs fully offline using Ollama
+- Uses **Llama 3.2** as the underlying language model
 - Simulated conversational memory using message history
 - Clear separation of system and user prompts
 - Loop-based interactive CLI chatbot
@@ -26,6 +28,7 @@ clear and accurate answers.
 ## Tech Stack
 - Python
 - Ollama (local LLM runtime)
+- Llama 3.2
 
 ## How It Works
 1. The system prompt defines the assistant’s personality and behavior.
@@ -37,17 +40,28 @@ clear and accurate answers.
 ## Prerequisites
 - Python 3.x
 - Ollama installed on your system
-- At least one Ollama model pulled (example below)
+- Llama 3.2 model pulled via Ollama
 
 ```bash
 ollama pull llama3.2
+```
 
 ## Acknowledgements
-This project was developed while following the **LLM Engineering course by
-Ed Donner**, which provided clear explanations and practical exercises on
-working with large language models and local LLM setups.
+This project was developed as part of a weekly exercise in the course  
+**AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents**, taught by
+**Ed Donner**.
 
-Thank you to **Ed Donner** for design
+The exercise focused on understanding local LLM execution, prompt
+engineering, and simulating conversational memory using message history
+with Ollama and Llama 3.2.
+
+Thank you to **Ed Donner** for designing a structured, hands-on course that
+encourages practical exploration of modern LLM systems.
+
+
+
+
+
 
 
 
