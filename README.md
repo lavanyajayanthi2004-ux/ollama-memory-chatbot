@@ -40,5 +40,15 @@ clear and accurate answers.
 - At least one Ollama model pulled (example below)
 
 ```bash
-ollama pull llama3
+ollama pull llama3.2
+
+## Acknowledgements
+This project was developed while following the **LLM Engineering course by
+Ed Donner**, which provided clear explanations and practical exercises on
+working with large language models and local LLM setups.
+
+Thank you to **Ed Donner** for design
+
+
+
 
